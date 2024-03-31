@@ -20,19 +20,6 @@ const app = initializeApp(firebaseConfig);
 //get ref to database services
  const db = getDatabase(app);
 
-//  Create user
-//  document.getElementById("submit").addEventListener('click', function(e){
-//   e.preventDefault();
-//   set(ref(db, 'admin/emp/hailey36/username/' + document.getElementById("username").value),
-//   {
-
-//     username: document.getElementById("username").value,
-//     email: document.getElementById("email").value,
-//     PhoneNumber: document.getElementById("phone").value
-
-//   });
-//     alert("Login Sucessfull  !");
-//  })
 
 // Get user credentials
 document.getElementById("loginBtn").addEventListener('click', function(e) {
