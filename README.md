@@ -1,6 +1,6 @@
-FrontEnd Developer: @EvidJamito
+FrontEnd Developer: [@EvidJamito](https://github.com/EvidJamito)
 
-BackEnd Developer: @SeekerVs
+BackEnd Developer:  [@SeekerVs](https://github.com/seekerVs)
 
 ![Login Image](https://raw.githubusercontent.com/seekerVs/CNSC-AI-Support-Website/main/Demo%20Images/login.jpg)
 
