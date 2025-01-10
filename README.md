@@ -1,13 +1,13 @@
 
 ## Introduction
 
-**CNSC AI Support Website* is designed to streamline the offered support for Camarines Norte State College stakeholders.
+**CNSC AI Support Website** is designed to streamline the offered support for Camarines Norte State College stakeholders.
 
 ### Key Highlights:
 
-- **Bold and Clear** objectives.
-- *Italicized focus areas*.
-- ~~Strikethrough example for deprecated features.~~
+- Fully customized AI model
+- Latest student guides referenced from handbook
+- Designed to be easily integrated to the institution current systems by employing student SIAS account credential for access.
 
 ---
 
