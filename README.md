@@ -1,7 +1,7 @@
 
 ## Introduction
 
-**Project Name** is designed to [describe what problem it solves or its primary purpose].
+**CNSC AI Support Website* is designed to streamline the offered support for Camarines Norte State College stakeholders.
 
 ### Key Highlights:
 
