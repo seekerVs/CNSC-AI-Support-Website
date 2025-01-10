@@ -15,7 +15,7 @@
 
 To run the project:
 
-```windows terminal
+```bash
 cd public
 ```
 
