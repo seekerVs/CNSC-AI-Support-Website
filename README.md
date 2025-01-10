@@ -1,5 +1,3 @@
-## Integrative Programming and Technologies 1 - Final Project
-
 ## Introduction
 
 **CNSC AI Support Website** is designed to enhance and streamline support services for stakeholders of Camarines Norte State College.
