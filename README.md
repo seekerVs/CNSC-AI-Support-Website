@@ -11,6 +11,20 @@
 
 ---
 
+## Usage
+
+To run the project:
+
+```windows terminal
+cd public
+```
+
+```windows terminal
+node server.js
+```
+
+---
+
 FrontEnd Developer: [@EvidJamito](https://github.com/EvidJamito)
 
 BackEnd Developer:  [@SeekerVs](https://github.com/seekerVs)
