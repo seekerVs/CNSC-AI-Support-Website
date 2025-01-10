@@ -1,6 +1,22 @@
+---
+
+## Introduction
+
+**Project Name** is designed to [describe what problem it solves or its primary purpose].
+
+### Key Highlights:
+
+- **Bold and Clear** objectives.
+- *Italicized focus areas*.
+- ~~Strikethrough example for deprecated features.~~
+
+---
+
 FrontEnd Developer: [@EvidJamito](https://github.com/EvidJamito)
 
 BackEnd Developer:  [@SeekerVs](https://github.com/seekerVs)
+
+---
 
 ![Login Image](https://raw.githubusercontent.com/seekerVs/CNSC-AI-Support-Website/main/Demo%20Images/login.jpg)
 
