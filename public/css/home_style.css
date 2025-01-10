@@ -1,0 +1,264 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #f0f0f0;
+  
+}
+
+#chat-container {
+  background-color: #fff;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 650px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#chat-history {
+  height: 85%;
+  overflow-y: scroll;
+}
+
+.user-message {
+  text-align: right;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.bot-message {
+  text-align: left;
+  padding: 10px;
+  background-color: #e0f0e0;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  white-space: pre-line;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #800000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#loader {
+display: none; /* Hide by default */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Space Grotesk', sans-serif;
+text-decoration: none;
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  height: 74px;
+  width: 100%;
+  padding: 20px 100px;
+  background:#800000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255, 255, 255, .2);
+}
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
+  transition: .5s;
+}
+.header:hover::before {
+  left: 100%;
+}
+.logo {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: default;
+}
+.logo a{
+color: #FFC130;
+}
+.navbar a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 35px;
+  transition: .3s;
+}
+.navbar a:hover {
+  color: #FFC130;
+}
+.about-us{
+margin-top: 50px;
+height: 100vh;
+width: 100%;
+padding: 90px 0;
+color:white;
+text-align: center;
+}
+.pic{
+height: auto;
+width:  302px;
+}
+.about{
+width: 1130px;
+max-width: 85%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+color:white;
+text-align: center;
+}
+.text{
+width: 540px;
+}
+.text h2{
+text-align: center;
+font-size: 60px;
+font-weight: 600;
+margin-right: 65px;
+margin-bottom: 50px;
+
+
+
+}
+.text h5{
+font-size: 22px;
+font-weight: 500;
+margin-bottom: 20px;
+}
+span{
+color:#800000;
+}
+.text p{
+font-size: 13px;
+line-height: 25px;
+letter-spacing: 1px;
+width: 500px;
+}
+.data{
+margin-top: 30px;
+}
+.team{
+position: relative;
+width: 100%;
+height: 100vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.team-content{
+width: 100%;
+max-width: 1350px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+align-items: center;
+gap: 2rem;
+text-align: center;
+margin-top: 4rem;
+}
+.team-content img{
+width: 100%;
+height: auto;
+border-radius: 15px;
+margin-bottom: 15px;
+}
+.center h1{
+color: #fff;
+font-size: 4rem;
+text-align: center;
+}
+.box{
+padding: 16px;
+background: #ffffff46;
+border-radius: 15px;
+transition: all .38s ease;
+}
+.box h3{
+font-size: 23px;
+font-weight: 600;
+color: #fff;
+margin-bottom: 8px;
+}
+.box h5{
+font-size: 15px;
+font-weight: 600;
+color: #b7b4bb;
+margin-bottom: 15px;
+letter-spacing: 2px;
+}
+.icons i{
+display: inline-block;
+color: #fff;
+font-size: 20px;
+margin: 0 8px;
+transition: all .38s ease;
+}
+.icons i:hover{
+transform: scale(1.2);
+}
+.box:hover{
+transform: translateY(-10px);
+cursor: pointer;
+}
+
+@media(max-width: 1240px){
+.team{
+  width: 100%;
+  height: auto;
+  padding: 90px 2%;
+}
+.center h1{
+  font-size: 3.2rem;
+}
+}
