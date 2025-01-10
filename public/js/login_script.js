@@ -5,7 +5,7 @@ import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/fireb
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyC5aOIuCnUoa10e8-NAlhIpA8OD8Hyi0NM",
+    apiKey: "FIREBASE API KEY HERE",
     authDomain: "cnsc-ai-chatbot.firebaseapp.com",
     databaseURL: "https://cnsc-ai-chatbot-default-rtdb.firebaseio.com",
     projectId: "cnsc-ai-chatbot",
