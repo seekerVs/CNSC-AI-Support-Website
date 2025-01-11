@@ -5,7 +5,7 @@
 ### Key Highlights:
 
 - Fully customized AI model
-- Latest student guides referenced from handbook
+- Latest student guides referenced from handbook and official sites
 - Designed to be easily integrated to the institution current systems by employing student SIAS account credential for access.
 
 ---
